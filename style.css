@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 81px;
+    margin: 0;
+}
+
+h4 {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    margin: 0;
+}
+
+.btn {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    color: #000;
+
+    width: 260px;
+    height: 72px;
+    background: #fff;
+    padding: 1%;
+}
+
+.btn:hover{
+    transition: 1   s ease-in-out;
+    opacity: 0.8;
+}
+
+.header {
+    margin-top: 3.5%;
+}
+
+.header_nav {
+    font-family: "Inter", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 16%;
+    margin-left: 9%;
+}
+
+.header_logo {
+    font-weight: 700;
+}
+
+.nav_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15%;
+}
+
+.nav_link {
+    font-weight: 500;
+}
+
+.welcome {
+    height: 155vh;
+    position: relative;
+}
+
+.welcome_subtitle {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+
+    width: 43%;
+
+    margin-left: 9%;
+    margin-top: 8%;
+}
+
+.welcome_img {
+    position: absolute;
+    z-index: -10;
+}
+
+.left {
+    left: 0;
+    top: 30%;
+}
+
+.right {
+    right: 0;
+    top: -1%;
+}
+
+.welcome_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_title {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 309px;
+    margin: 0;
+}
+
+.main_title:nth-child(1) {
+    margin-top: -1%;
+}
+
+.main_title:nth-child(2) {
+    margin-top: -11.5%;
+    margin-left: 1%;
+}
+
+.welcome .btn {
+    position: absolute;
+    left: 50%;
+    top: 63%;
+    width: auto;
+    height: auto;
+}
+
+.portfolio {
+    height: 460vh;
+
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.portfolio_title {
+    text-align: center;
+
+}
+
+.portfolio_block {
+    display: flex;
+    flex-flow: row;
+    align-self: center;
+    justify-content: center;
+    gap: 3%;
+
+    padding-top: 5%;
+    height: auto;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5%;
+    align-items: last baseline;
+}
+
+.portfolio_img {
+    width: 100%;
+    object-fit: none;
+}
+
+.about_title {
+    text-align: center;
+}
+
+.about_block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1%;
+
+    margin: 7%;
+}
+
+.about_desc {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+
+    width: 37.5vw ;
+}
+
+.testimon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 1300px;
+}
+
+.test_title {
+    text-align: center;
+
+    margin-top: 10%;
+}
+
+.test_text {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+
+    text-align: center;
+    margin: 40px auto 90px auto;
+
+    width: 70%;
+}
+
+.testimon_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 55px;
+}
+
+.test_member {
+    font-family: "Inter", sans-serif;
+}
+
+.test_block1, .test_block2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.test_block1 {
+    width: 50%;
+    height: 55%;
+
+    display: flex;
+    gap: 50px;
+}
+
+.test_block2 {
+    width: 21.35%;
+}
+
+.member_block {
+    background: #181818;
+}
+
+.test_block2 .member_block {
+    height: 46.8vh;
+
+    padding: 6%;
+}
+
+.test_block1 .member_block {
+    padding: 3.5%;
+}
+
+.test_block1 .test_member {
+    display: flex;
+    flex-direction: row;
+}
+
+.test_block1 .test_member:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+.test_block2 .test_member {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.test_btn {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+
+    border: 1.36px solid #fff;
+    padding: 1%;
+    margin-top: 6%;
+    
+    text-align: center;
+    width: 218px;
+    height: 34px;
+}
+
+.member_title {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 102%;
+    margin: 0;
+}
+
+.member_desc {
+    font-weight: 300;
+    font-size: 15px;
+    width: 75%;
+
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+.test_block2 .member_desc {
+    margin-bottom: 30px;
+}
+
+.rev_link {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.rev_link img {
+    vertical-align: middle;
+    padding-left: 1.7%;
+}
+
+.contact {
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.contact_form p {
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+}
+
+.contact_form label {
+    font-weight: 400;
+    font-size: 44px;
+    color: #fff;
+
+    margin-bottom: 10px;
+}
+
+.contact_form p input, .contact_form p textarea {
+    border: none;
+    background-color: #000;
+    border-bottom: 2px solid #fff;
+}
+
+.contact_form p input {
+    width: 40vw;
+    height: 8vh;
+}
+
+.contact_form p textarea {
+    width: 40vw;
+    height: 26vh;
+
+    font-weight: 400;
+    font-size: 25px;
+    color: #bbb;
+}
+
+.contact_form button {
+    width: 159px;
+    padding: 0;
+
+    margin-top: 4%;
+}
+
+input::placeholder {
+    font-weight: 400;
+    font-size: 25px;
+    color: #bbb;
+}
+
+.footer {
+    font-family: "Inter", sans-serif;
+}
+
+.footer_title {
+    font-weight: 700;
+    font-size: 22px;
+
+    text-align: center;
+}
+
+.footer_terms {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.foot_text {
+
+}
